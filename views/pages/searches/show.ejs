@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/base.css">
-  <link rel="stylesheet" href="./styles/layout.css">
-  <link rel="stylesheet" href="./styles/modules.css">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/layout.css">
+  <link rel="stylesheet" href="/styles/modules.css">
   <title>Books</title>
 </head>
 <body>
-  <h1>Results of Search</h1>
+  <main>
+    <h1>Search Results</h1>
+  
+    <% for(let i = 0; i < titles.length; i++){ %>
+    <ul>
+      <li><img src="<%= titles[i].image %>"</li>
+      <li><%= titles[i].title %></li>
+      <li><%= titles[i].author %></li>
+      <li><%= titles[i].description %></li>
+    </ul>
+    <% } %>
 
-  <% for(let i = 0; i < titles.length; i++){ %>
-  <ul>
-    <li><%= titles[i].title %></li>
-    <li><%= titles[i].author %></li>
-    <li><%= titles[i].description %></li>
-    <li><img src="<%= titles[i].image %>"</li>
-  </ul>
-  <% } %>
+  </main>
   <!-- <ul>
     <% for(let i = 0; i < titles.length; i++){ %>
       <li><%= titles[i].description %></li>

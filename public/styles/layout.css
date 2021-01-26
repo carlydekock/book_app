@@ -1,3 +1,45 @@
-h1 {
+main {
+  width: 480px;
+  border: black 1px solid;
+}
+
+form {
+  margin: auto;
   text-align: center;
+  line-height: 50px;
+}
+
+legend {
+  font-weight: bold;
+  width: 100%;
+}
+
+div {
+  border: black solid 1px;
+}
+
+
+h1 {
+  font-size: 25px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  width: 440px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  overflow: auto;
+}
+
+li {
+  padding: 15px;
+}
+
+li:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 18px;
 }

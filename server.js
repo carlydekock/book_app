@@ -12,12 +12,12 @@ app.use(express.static('./public'));
 app.set('view engine', 'ejs');
 
 app.get('/', (request, response) => {
-  response.send('Made it home');
-});
-
-app.get('/hello', (request, response) => {
   response.render('pages/index.ejs');
 });
+
+// app.get('/hello', (request, response) => {
+//   response.render('pages/index.ejs');
+// });
 
 app.get('/searches/new', (request, response) => {
   response.render('pages/searches/new.ejs');

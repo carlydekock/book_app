@@ -1,3 +1,24 @@
 body {
-  background-color: lightblue;
+  /* background-color: grey; */
+}
+main {
+  background-color: grey;
+}
+
+legend {
+  background-color: rgb(87, 85, 85);
+  color: rgb(248, 244, 244);
+}
+
+input:last-of-type {
+  background-color: black;
+  color: white;
+}
+h1 {
+  background-color: rgb(87, 85, 85);
+  color: rgb(248, 244, 244);
+}
+
+ul {
+  background-color: lightgrey;
 }
