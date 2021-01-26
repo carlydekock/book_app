@@ -5,24 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Books</title>
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/base.css">
-  <link rel="stylesheet" href="./styles/layout.css">
-  <link rel="stylesheet" href="./styles/modules.css">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/layout.css">
+  <link rel="stylesheet" href="/styles/modules.css">
 </head>
 
 <body>
-  <form action="/searches" method="POST">
-    <fieldset>
-      <legend>Search Books</legend>
-      <input type="text" name="query" placeholder="Enter a Title or Author">
-      <label for="title">Title</label>
-      <input type="radio" name="query-type" value="Search by Title">
-      <label for="author">Author</label>
-      <input type="radio" name="query-type" value="Search by Author">
-      <input type="submit" value="Search the Google Books API">
-    </fieldset>
-  </form>
+  <main>
+    <form action="/searches" method="POST">
+      <fieldset>
+        <legend>Search by Title or Author</legend>
+        <input type="text" name="query" placeholder="Enter a Title or Author">
+        <div>
+          <label for="title">Title</label>
+          <input type="radio" name="query-type" value="Search by Title">
+        </div>
+        <div>
+          <label for="author">Author</label>
+          <input type="radio" name="query-type" value="Search by Author">
+        </div>
+        <br>
+        <input type="submit" value="Search the Google Books API">
+      </fieldset>
+    </form>
+  </main>
 
 
 </body>
