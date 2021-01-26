@@ -47,23 +47,23 @@ Actual time needed to complete: 1 hour
 
 Number and name of feature: 3 - Browsing Results
 
-Estimate of time needed to complete: 45 minutes
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 6:00pm
 
-Finish time: _____
+Finish time: 8:30pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hours 30 minutes
 
 Number and name of feature: 4 - Error Message
 
 Estimate of time needed to complete: 10 minutes
 
-Start time: _____
+Start time: 8:30pm
 
-Finish time: _____
+Finish time: 8:40pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 10 minutes
 
 Number and name of feature: 5 Styling
 
