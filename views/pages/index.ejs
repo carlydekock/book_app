@@ -1,33 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Books</title>
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/base.css">
-  <link rel="stylesheet" href="./styles/layout.css">
-  <link rel="stylesheet" href="./styles/modules.css">
-</head>
+<%- include('../layout/head.ejs') %>
 
 <body>
-  <h1>Saved Books</h1>
-  <h2>Books Count: <%= books.length %></h2>
- <% console.log('from the front end', books); %>
-    <% for(let i=0; i < books.length; i++){ %>
-      <ul>
-        <li><img src="<%= books[i].image_url %>" </li>
-        <li>
-          <%= books[i].title %>
-          <br>
-          <button><a href="/books/<%= books[i].id %>">View Details</a></button>
-        </li>
-        <li><%= books[i].author %></li>
-        <li><%= books[i].description %></li>
-      </ul>
-    <% } %>
+  <header>
+    <%- include('../layout/nav.ejs') %>
+  </header>
+  <main>
+    <div id="totalbooks">
+    <h4><%= books.length %></h4>
+    <h1>Saved Books</h1>
+    </div>
 
+  <% console.log('from the front end', books); %>
+      <% for(let i=0; i < books.length; i++){ %>
+        <ul>
+          <li><img src="<%= books[i].image_url %>" </li>
+          <li>
+            <%= books[i].title %>
+            <br>
+          </li>
+          <li><%= books[i].author %></li>
+          <button id="details"><a href="/books/<%= books[i].id %>">View Details</a></button>
+        </ul>
+      <% } %>
+  </main>
+  <footer>
+  </footer>
 </body>
 
 </html>

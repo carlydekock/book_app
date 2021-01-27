@@ -12,8 +12,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('./public'));
 app.set('view engine', 'ejs');
 
-//saved books array - global variable
-const savedBooks = [];
 
 // Routes
 //Home Route
