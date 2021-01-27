@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,20 @@
   <link rel="stylesheet" href="./styles/layout.css">
   <link rel="stylesheet" href="./styles/modules.css">
 </head>
+
 <body>
-  <h1>Hello World</h1>
-  
+  <h1>Saved Books</h1>
+  <h2>Books Count: <%= books.length %></h2>
+ <% console.log('from the front end', books); %>
+    <% for(let i=0; i < books.length; i++){ %>
+      <ul>
+        <li><img src="<%= books[i].image_url %>" </li>
+        <li><%= books[i].title %></li>
+        <li><%= books[i].author %></li>
+        <li><%= books[i].description %></li>
+      </ul>
+    <% } %>
+
 </body>
+
 </html>

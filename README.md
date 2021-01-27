@@ -36,6 +36,7 @@ https://codefellows.github.io/code-301-guide/curriculum/class-11/wireframes/11-r
 
 
 ## Time Estimate
+### Lab 11
 Number and name of feature: 1 - Initial Setup
 
 Estimate of time needed to complete: 1 hour
@@ -95,3 +96,55 @@ Start time: 9:58pm
 Finish time: 10 pm
 
 Actual time needed to complete: 2 minutes
+
+### Lab 12
+
+Number and name of feature: 1 Database and Homepage
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 3 pm
+
+Finish time: 5:13 pm
+
+Actual time needed to complete: 2 hours 13 minutes
+
+Number and name of feature: 2 Book Details
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
+
+Number and name of feature: 3 Save Books
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
+
+Number and name of feature: 4 Layout
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
+
+Number and name of feature: 5 Modules
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
