@@ -12,6 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('./public'));
 app.set('view engine', 'ejs');
 
+//saved books array - global variable
+const savedBooks = [];
+
 // Routes
 //Home Route
 app.get('/', (request, response) => {
@@ -31,6 +34,8 @@ app.get('/searches/new', (request, response) => {
 
 //Search results page
 app.post('/searches', makeBookSearch);
+
+app.post('/books', saveBook);
 
 
 // Route Callbacks
@@ -78,6 +83,23 @@ function makeBookSearch(request, response) {
       });
   }
 }
+
+function saveBook(request, response) {
+  // console.log(request.body);
+  const savedBookObject = request.body;
+  console.log(request.body);
+  // const savedBookObject = new Book(savedBookObject);
+  // //Save to database
+  const sqlQuery = 'INSERT INTO books (title, author, isbn, image_url, description) VALUES($1, $2, $3, $4, $5) RETURNING id';
+  const sqlArray = [savedBookObject.title, savedBookObject.author, savedBookObject.isbn, savedBookObject.image, savedBookObject.description];
+  console.log(sqlArray);
+  client.query(sqlQuery, sqlArray).then(results => {
+    console.log('THIS IS RESULTS FROM DB', results.rows);
+    response.redirect(`/books/${results.rows[0].id}`);
+  });
+  // console.log(savedBooks);
+}
+
 
 //Helper functions
 function Book(object) {
