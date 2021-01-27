@@ -18,6 +18,10 @@
       <li><img src="<%= titles[i].image %>"</li>
       <li><%= titles[i].title %></li>
       <li><%= titles[i].author %></li>
+        <form action="/books" method="POST">
+          <input type="hidden" name="title" value="<%= titles[i].title %>">
+          <input type="submit" value="Select this Book">
+        </form>
       <li><%= titles[i].description %></li>
     </ul>
     <% } %>

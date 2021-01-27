@@ -116,15 +116,15 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 6:15pm
 
-Finish time: 7:20pm
+Finish time: 8:00pm
 
-Actual time needed to complete: 1 hour and 5 minutes
+Actual time needed to complete: 1 hour and 45 minutes
 
 Number and name of feature: 3 Save Books
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 8:10pm
 
 Finish time: 
 
