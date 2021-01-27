@@ -31,8 +31,9 @@ https://codefellows.github.io/code-301-guide/curriculum/class-11/wireframes/11-r
 ## Credits and Collaborators
   - Chance Harmon (TA)
   - Skyler (TA)
-  - Paul O'brien (TA)
+  - Paul O'Brien (TA)
   - Aaron (TA)
+  - Ron Dunphy (TA)
 
 
 ## Time Estimate
@@ -105,19 +106,19 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 3 pm
 
-Finish time: 5:13 pm
+Finish time: 6:00 pm
 
-Actual time needed to complete: 2 hours 13 minutes
+Actual time needed to complete: 3 hours
 
 Number and name of feature: 2 Book Details
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 6:15pm
 
-Finish time: 
+Finish time: 7:20pm
 
-Actual time needed to complete:
+Actual time needed to complete: 1 hour and 5 minutes
 
 Number and name of feature: 3 Save Books
 

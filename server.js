@@ -6,12 +6,14 @@ const superagent = require('superagent');
 const PORT = process.env.PORT || 3111;
 const pg = require('pg');
 const app = express();
+const client = new pg.Client(process.env.DATABASE_URL);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('./public'));
 app.set('view engine', 'ejs');
-const client = new pg.Client(process.env.DATABASE_URL);
 
+// Routes
+//Home Route
 app.get('/', (request, response) => {
   const booksDataBase = `SELECT * FROM books`;
   client.query(booksDataBase).then(results => {
@@ -19,15 +21,30 @@ app.get('/', (request, response) => {
   });
 });
 
-// app.get('/hello', (request, response) => {
-//   response.render('pages/index.ejs');
-// });
+//Single book search to view details route
+app.get('/books/:id', getBookInfo);
 
+//Form to input for search
 app.get('/searches/new', (request, response) => {
   response.render('pages/searches/new.ejs');
 });
 
+//Search results page
 app.post('/searches', makeBookSearch);
+
+
+// Route Callbacks
+function getBookInfo(request, response) {
+  const id = request.params.id;
+  const SQL = `SELECT * FROM books WHERE id=$1`;
+  const values = [id];
+  client.query(SQL, values).then(results => {
+    console.log('!!!!!!!!!!!!!!', results.rows);
+    response.render('pages/books/detail.ejs', {book: results.rows[0]});
+  });
+  // response.send('Made it to books id');
+}
+
 
 function makeBookSearch(request, response) {
   console.log('This is the query', request.body);
