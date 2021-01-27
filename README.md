@@ -8,13 +8,15 @@
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code 301 class. (i.e. What's your problem domain?) -->
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+- npm install
+- DATABASE_URL
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 https://codefellows.github.io/code-301-guide/curriculum/class-11/wireframes/11-search.png
 
 https://codefellows.github.io/code-301-guide/curriculum/class-11/wireframes/11-results.png
+
 ## Change Log
 
 01-25-21 6 pm - Application has fully-functional express server, with GET and POST routes for the book resource.
@@ -25,10 +27,10 @@ https://codefellows.github.io/code-301-guide/curriculum/class-11/wireframes/11-r
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 
-
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-## Credits and Collaborators
+
+## Credits and Collaborations
 - Chance Harmon (TA)
 - Skyler (TA)
 - Paul O'Brien (TA)
@@ -134,15 +136,37 @@ Number and name of feature: 4 Layout
 
 Estimate of time needed to complete: 30 minutes
 
-Start time: 
+Start time: 2:00pm - 1/27
 
-Finish time: 
+Finish time: 2:30pm - 1/27
 
 Actual time needed to complete:
 
 Number and name of feature: 5 Modules
 
 Estimate of time needed to complete: 30 minutes
+
+Start time: 2:30pm - 1/27
+
+Finish time: 3:30pm - 1/27
+
+Actual time needed to complete:
+
+### Lab 13
+
+Number and name of feature: 1 Update Book Details
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
+Number and name of feature: 2 Remove Books
+
+Estimate of time needed to complete: 1 hour
 
 Start time: 
 

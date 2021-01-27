@@ -1,6 +1,7 @@
 main {
   width: 480px;
   border: black 1px solid;
+  padding-bottom: 20px;
 }
 
 form {
@@ -26,6 +27,7 @@ h1 {
   text-align: center;
 }
 
+
 ul {
   width: 440px;
   height: 500px;
@@ -35,6 +37,16 @@ ul {
   overflow: auto;
 }
 
+header ul {
+  width: 480px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  overflow: hidden;
+  /* display: inline-block; */
+}
+
 li {
   padding: 15px;
 }
@@ -42,4 +54,24 @@ li {
 li:nth-of-type(2) {
   font-weight: bold;
   font-size: 18px;
+}
+
+header li {
+  /* padding-top: 10px; */
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header li:nth-of-type(2) {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer {
+  width: 480px;
+  height: 50px;
+  margin: auto;
+  background-color: black;
 }
