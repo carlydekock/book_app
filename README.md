@@ -29,12 +29,12 @@ https://codefellows.github.io/code-301-guide/curriculum/class-11/wireframes/11-r
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 ## Credits and Collaborators
-  - Chance Harmon (TA)
-  - Skyler (TA)
-  - Paul O'Brien (TA)
-  - Aaron (TA)
-  - Ron Dunphy (TA)
-
+- Chance Harmon (TA)
+- Skyler (TA)
+- Paul O'Brien (TA)
+- Aaron (TA)
+- Ron Dunphy (TA)
+- Jan 26: Paul (TA) helped with SQL database grabbing id with returning command
 
 ## Time Estimate
 ### Lab 11
@@ -116,19 +116,19 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 6:15pm
 
-Finish time: 7:20pm
+Finish time: 8:00pm
 
-Actual time needed to complete: 1 hour and 5 minutes
+Actual time needed to complete: 1 hour and 45 minutes
 
 Number and name of feature: 3 Save Books
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 8:10pm
 
-Finish time: 
+Finish time: 9:15pm
 
-Actual time needed to complete:
+Actual time needed to complete: 1 hour 5 minutes
 
 Number and name of feature: 4 Layout
 

@@ -18,7 +18,11 @@
     <% for(let i=0; i < books.length; i++){ %>
       <ul>
         <li><img src="<%= books[i].image_url %>" </li>
-        <li><%= books[i].title %></li>
+        <li>
+          <%= books[i].title %>
+          <br>
+          <button><a href="/books/<%= books[i].id %>">View Details</a></button>
+        </li>
         <li><%= books[i].author %></li>
         <li><%= books[i].description %></li>
       </ul>
