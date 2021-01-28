@@ -68,3 +68,7 @@ ul img {
   color: white;
   text-decoration: none;
 }
+
+#detailsedit {
+  display: none;
+}
